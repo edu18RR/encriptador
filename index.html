@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Edu Desafio 1 encriptador</title>
+</head>
+
+<body>
+    <header>
+        <img src="imagenes/Vector.png" alt="Logo de alura con su letra inicial a">
+    </header>
+    <main>
+        <section>
+            <textarea class="caja-texto" cols="40" rows="6" placeholder="Ingrese el texto aquí, para codificar o descodificar"></textarea>
+            
+            <div class="advertencia">
+                <img src="/imagenes/Group.png" alt="advertencia"><h5>solo letras minúsculas y sin acentos</h5>
+           </div>
+            
+            <div class="cbotones">
+                <button class="bencriptar" onclick="bencriptar()">Encriptar</button>
+                <button class="bdesencriptar" onclick="bdesencriptar()">Desencriptar</button>
+            </div>
+        </section>
+
+        <section>
+            <textarea class="mensaje" cols="18" rows="8" placeholder="No se ha mostrado ningun mensaje"></textarea></textarea>
+            <div class="ccopiar">
+                <button class="bcopiar" onclick="bcopiar()">Copiar</button>
+            </div>
+        </section>
+        <h5 class="derechos">Alura Latam todos los derechos reservados. Elaborado por Eduardo Rosas.</h5>
+    </main>
+    
+</body>
+<script src="script.js"></script>
+</html>
