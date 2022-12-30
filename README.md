@@ -1,4 +1,4 @@
-# Encriptador
+# 🔏 Encriptador de texto
 Proyecto Encriptador de Oracle Next Education, elaborado por Eduardo Rosas.
 Se establecieron la siguiente reglas:
 
